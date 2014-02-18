@@ -1,0 +1,11 @@
+# Site settings
+title: Brandon Woo
+email: your-email@domain.com
+description: All about Brandon Woo
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://brandonwoo.com" # the base hostname & protocol for your site
+twitter_username: brandonheato
+github_username:  brandonwoo
+
+# Build settings
+markdown: kramdown
