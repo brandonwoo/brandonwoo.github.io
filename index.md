@@ -16,7 +16,6 @@ Loves well designed products and services, music, movies, fashion, wine, photogr
 ![alt text][flickr] [Flickr](https://www.flickr.com/brandonwoo/){:target="_blank"}  
 ![alt text][bwoophoto] [Brandon Woo Photography](https://brandonwoophotography.com/){:target="_blank"}  
 ![alt text][github] [GitHub](https://github.com/brandonwoo){:target="_blank"}  
-![alt text][cal] [My Schedule (予定表)](https://www.google.com/calendar/b/0/embed?src=ekusujapan@gmail.com&ctz=Asia/Tokyo){:target="_blank"}  
 ![alt text][line] [Line](http://line.me/ti/p/F04-Zm4HAy){:target="_blank"}  
 ![alt text][twitter] [Twitter](https://twitter.com/brandonheato){:target="_blank"}  
 ![alt text][gplus] [Google+](https://plus.google.com/+BrandonWooGPlus){:target="_blank"}  
