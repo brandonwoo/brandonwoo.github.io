@@ -33,30 +33,68 @@ permalink: /resumes/en/
 ### A Better World `2015 Sep - current`
 Software development, translation and consulting services  
 
-* [Relations](https://www.relationsgroup.co.jp/) `2016 March - 2016 May`
-  * Architect and lead developer for the single-page frontend application of a new web service project, for connecting supermarkets and fresh fish and fruits suppliers nation-wide.
+* [LogicLogic](https://www.logiclogic.jp/) `2017 Sep - 2018 Feb`
+
+  * Developed reusable/configurable GraphQL API backend of various major video streaming sites.
+      * Setup GraphQL API for any new service just by passing configuration options to a base server module
+      * Data models can be added or customized by passing definitions to the base server module
+      * Common data retrieval relations are setup automatically with zero configuration; complex relations can be defined manually
+      * Technologies used: ***Javascript (node.js, express.js babel.js), GraphQL, Elasticsearch, Redis, jwt, apollo-server***  
+<br/>
+      
+  * Sole developer of a DRM authentication gateway server used by various major video streaming sites.
+      * receive requests from client video players
+      * decode and analyze metadata attached in requests
+      * query entitlements management server to check for permissions to play
+      * if authorized, query keys management server to receive token key for playback and return it to the client
+      * support for various DRM formats and players (widevine, playready, fairplay)
+      * Technologies used： ***Golang (gin), jwt, Redis***  
+<br/>
+
+  * Sole frontend developer (single-page frontend web application) of the foundation source code for Smart TV electronic programme guide apps of various major video broadcasting stations.
+      * Technologies used: ***Javascript (react.js), HTML/CSS***  
+<br/>
+
+* [Mobius Wireless Solutions](http://www.mobiusws.com/) `2016 Dec - 2017 Sep`
+  * Sole frontend developer (single-page frontend web application) for an admin dashboard for displaying and analyzing Simbox fraudulent activity.
+      * Technologies used: ***Javascript (react.js, redux.js, jQuery, webpack, node.js), Twitter Bootstrap, HTML/CSS***  
+<br/>
+
+* [Supership](https://supership.jp/) `2016 Aug - 2017 Mar`
+  * Sole frontend developer (single-page frontend web application) of a new digital advertisement distribution management system.
+      * Technologies used: ***Javascript (react.js, redux.js, jQuery, webpack, node.js), Twitter Bootstrap, HTML/CSS***  
+<br/>
+
+* [Relations](https://www.relationsgroup.co.jp/) `2016 Mar - 2016 May`
+  * Architect and sole frontend developer (single-page frontend web application) of a new web service project that connects supermarkets with fresh fish and fruits suppliers nation-wide.
       * Technologies used: ***Javascript (react.js, jQuery, webpack, node.js), Twitter Bootstrap, HTML/CSS***  
+<br/>
 
 * [olainc](http://olainc.jp/) `2015 Nov - 2016 Feb`
   * Helped coordinate/translate/interpret between project managers in Japan and developers and factories in China for a Hello Kitty mobile phone manufacturing project.  
+<br/>
 
 * [otacco](https://otacco.com) `2015 Nov - 2016 Feb`
-  * Completely rewrote the frontend of otacco.com  and refreshed the design in the process all in 3 weeks
+  * Completely rewrote and redesigned the frontend of otacco.com (single-page frontend web application) all in 3 weeks
       * Technologies used: ***Javascript (react.js, jQuery, webpack, node.js), Twitter Bootstrap, Ruby on Rails, HTML/CSS***  
+<br/>
 
-* [Generace](http://generace.co.jp)  `2015 October`
+* [Generace](http://generace.co.jp)  `2015 Oct`
   * Designed and developed APIs for a game
       * Technologies used: ***PHP (CakePHP)***
+<br/>
 
-* [Geekatoo](https://www.geekatoo.com)  `2015 Sept - 2016 Jan`
+* [Geekatoo](https://www.geekatoo.com)  `2015 Sep - 2016 Jan`
   * Developed a customized version of Geekatoo.com for use by Q&A Corporation
   * Coordination and translation between Geekatoo and Q&A Corporation
       * Technologies used: ***Ruby on Rails, HTML/CSS***
+<br/>
+
 
 ### [GREE](http://corp.gree.net) `2012 Dec - 2015 Aug`
 * Technical translator and interpreter  `2012 Dec - 2013 Jul`
   * translated documentation for partners, meetings, presentations, engineer blog articles, open-source project documentation
-* Interviewer for engineering positions `2012 Dec - 2013 July`
+* Interviewer for engineering positions `2012 Dec - 2013 Jul`
 * Automation engineer `2013 Aug - 2015 Aug`
   * automate addition/removal of developer accounts
   * setting up servers with chef
@@ -70,14 +108,14 @@ Software development, translation and consulting services
 ### [Zynga Japan](https://www.zynga.com) `2010 Jul - 2012 Feb`
 * Developer for iOS game Montopia `2012 Feb`
   * Technologies used: ***PHP, HTML/CSS, Javascript, Zynga common libraries***
-* Developer for an unreleased iOS game `2011 Sept - 2012 Jan`
+* Developer for an unreleased iOS game `2011 Sep - 2012 Jan`
   * Technologies used: ***PHP, HTML/CSS, Javascript, Zynga common libraries***
 * Contributor to Zynga Japan common libraries (Integration with Zynga US common libraries, Twitter/Facebook Integration, support for multiple SNS accounts, iOS skeleton project, Apple Push Notifications, Apple In-app Purchases) `2011 Mar - 2011 Aug`
   * Technologies used: ***PHP, Javascript, Objective-C, Facebook/Twitter SDKs, Apple SDKs, Xcode, Zynga common libraries***
 * Coordinator and interpreter for Zynga US/Zynga Japan technology integration `2010 Dec - 2011 Dec`
 * Statistics lead for mixi game Treasure Isle `2010 Nov - 2011 Feb`
   * Technologies used: ***PHP (Symfony 1), HTML/CSS, Zynga common libraries***
-* Lead producer and developer of an unreleased private project `2010 Aug - 2010 Sept`
+* Lead producer and developer of an unreleased private project `2010 Aug - 2010 Sep`
   * Technologies used: ***PHP (Symfony 1), HTML/CSS, Unoh common libraries, Zynga common libraries***
 
 ### Unoh `2010 Jan - 2010 Jul`
@@ -147,7 +185,7 @@ Translated parts of a technical API document for a smart security door from Engl
 ## Skills
 * I am ***trilingual*** and am not just proficient, but am ***fluent in in both written and conversational English, Chinese and Japanese***.
 
-* I have had working experience with ***Javascript (server/client/react.js/ES6/Babel/node.js)***, ***PHP ***, ***Objective C***, ***Python***, ***Golang***, ***Ruby***, ***Ruby on Rails***, ***Chef***, as well as ***HTML*** and ***CSS***, and also have had experience with ***Google App Engine***, ***Heroku***, ***C***, ***C++***, ***C#***, ***Java***, ***Android SDK***, ***Firebase*** from school work or on a personal usage basis.
+* I have had working experience with ***Javascript ( server / client / react.js / redux.js / ES6 / Babel / node.js )***, ***PHP***, ***Objective C***, ***Python***, ***Golang***, ***Ruby***, ***Ruby on Rails***, ***GraphQL***, ***Chef***, as well as ***HTML*** and ***CSS***, and also have had experience with ***Google App Engine***, ***Heroku***, ***C***, ***C++***, ***C#***, ***Java***, ***Android SDK***, ***Firebase*** from school work or on a personal usage basis.
 
 * I am comfortable with ***agile programming work styles*** and ***managing agile projects*** from actual working experience.
 
@@ -177,7 +215,7 @@ JLPT3 in 2004
 
 * I am always ***excited about new services and new technology***.
 
-* I am a firm believer that smartphones will fundamentally change the way we live our lives.
+* I am a firm believer that smartphones and the Internet will continue to fundamentally change the way we live our lives.
 
 ## Hobbies
 I have a wide variety of interests outside of work, including ***music, photography, movies, fashion, wine, japanese sake, craft beer***, and ***good food*** in general. As a result of my many hobbies I have made ***many friends and contacts from various different walks of life***.

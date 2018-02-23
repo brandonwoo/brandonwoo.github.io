@@ -6,7 +6,7 @@ layout: info
 
 ## Engineer, Translator, Interpreter, Photographer, Singer
 
-Loves well designed products and services, music, movies, fashion, wine, photography, smartphones.
+Loves well designed products and services, music, movies, fashion, wine, whisky, photography, smartphones.
 
 ![alt text][fb] [Facebook](https://www.facebook.com/brandonwoo){:target="_blank"}  
 ![alt text][resume] [Resume (English)](/resumes/en/)  

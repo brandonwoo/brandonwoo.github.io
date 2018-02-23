@@ -32,20 +32,59 @@ permalink: /resumes/jp/
 ### A Better World `2015年9月 - 現在`
 開発・翻訳・通訳・国際展開コンサル・コンサル業務全般
 
-* [relations](https://www.relationsgroup.co.jp) `2016年3月 - 2016年5月`
-  * スーパーマーケットと各地の市場をつなげる新規ウェブサービスのフロントエンドの設計・リードエンジニアをしていました。
-      * 使用した技術： ***Javascript (react.js, jQuery, webpack, node.js), Twitter Bootstrap, HTML/CSS***  
+* [LogicLogic](https://www.logiclogic.jp/) `2017年9月 - 2018年2月`
+
+  * 複数大規模動画配信サービスのGraphQL APIバックエンドを汎用的に開発 
+      * コンフィグを汎用モジュールに渡すだけでカスタマイズしたAPIサーバーを立ち上げることが可能
+      * 個別モデル定義を汎用モジュールに渡すだけでデータモデルの追加・カスタマイズが可能
+      * 基本的なリレーションはコンフィグなしでGraphQLで取得可能
+          * より複雑なクエリーも手動で設定可能
+      * 使用した技術： ***Javascript (node.js, express.js babel.js), GraphQL, Elasticsearch, Redis, jwt, apollo-server***  
+<br/>
+      
+  * 複数大規模デジタル配信サービスが使用するDRM認証Proxyサーバーを開発
+      * クライントの動画再生プレイヤーからリクエストを受け、
+          * リクエストで送られているMetadataを解析・分析し
+          * 再生可・不可を権限確認サーバーに問い合わせ
+          * 可の場合はキー管理サーバーに問い合わせてキーを取得し、クライントに返す
+          * widevine, playready, fairplayなど複数のDRMとプレイヤーに対応
+      * 使用した技術： ***Golang (gin), jwt, Redis***  
+<br/>
+
+  * 複数大手動画放送社のスマートテレビアプリーのチャンネル表部分のスケルトンを開発
+      * 使用した技術： ***Javascript (react.js), HTML/CSS***  
+<br/>
+
+* [Mobius Wireless Solutions](http://www.mobiusws.com/) `2016年12月 - 2017年9月`
+  * Simbox詐欺探知システムの管理画面ダッシュボードウェブアプリ(Single-page Application)の開発を担当  
+      * 使用した技術： ***Javascript (react.js, redux.js, jQuery, webpack, node.js), Twitter Bootstrap, HTML/CSS***  
+<br/>
+
+* [Supership](https://supership.jp/) `2016年8月 - 2017年3月`
+  * 広告配信管理システムのフロントエンドウェブアプリ(Single-page Application)を担当  
+      * 使用した技術： ***Javascript (react.js, redux.js, jQuery, webpack, node.js), Twitter Bootstrap, HTML/CSS***  
+<br/>
+
+* [Relations](https://www.relationsgroup.co.jp) `2016年3月 - 2016年5月`
+  * スーパーマーケットと各地の市場をつなげる新規ウェブサービスのフロントエンドウェブアプリ(Single-page Application)の設計・リードエンジニア
+      * 使用した技術： ***Javascript (react.js, redux.js, jQuery, webpack, node.js), Twitter Bootstrap, HTML/CSS***  
+<br/>
 
 * [olainc](http://olainc.jp/)  `2015年11月 - 2016年2月`
-  * 日本の会社が中国（深圳）の工場でハローキティの携帯を生産するプロジェクトのプロジェクトコーディネーターと通訳者・翻訳者をしていました。  
+  * 日本の会社が中国（深圳）の工場でハローキティの携帯を生産するプロジェクトのプロジェクトコーディネーターと通訳者・翻訳者
+
+<br/>
 
 * [otacco](https://otacco.com) `2015年11月 - 2016年2月`
-  * 3週間で、otacco.comのフロントエンド（SPA）を書き直しかつデザインもリニューアルした。
+  * 3週間で、otacco.comのフロントエンドウェブアプリ（Single-page Application）を書き直し、かつデザインのリニューアルも担当  
       * 使用した技術： ***Javascript (react.js, jQuery, webpack, node.js), Twitter Bootstrap, Ruby on Rails, HTML/CSS***  
+<br/>
 
 * [Generace](http://generace.co.jp)  `2015年10月`
-  * AndroidのオンラインソーシャルゲームのサーバーバックエンドAPIを開発
+  * AndroidのオンラインソーシャルゲームのサーバーバックエンドAPIを開発  
       * 使用した技術： ***PHP (CakePHP)***
+
+<br/>
 
 * [Geekatoo](https://www.geekatoo.com)  `2015年9月 - 2016年1月`
   * 株式会社Q&A向けにカスタマイズしたGeekatoo.comのウェブサイト・iOSアプリ・Androidアプリの開発
@@ -152,9 +191,9 @@ permalink: /resumes/jp/
   * 「Singapore Youth Festival」合唱大会で銅賞
 
 ## スキルセット
-* ***英・中・日***の三ヶ国語に精通している***トライリンガルです***。  
+* ***英・中・日*** の三ヶ国語に精通している***トライリンガル***です。  
 
-* ***Javascript (server/client/react.js/ES6/Babel/node.js)***, ***PHP ***, ***Objective C***, ***Python***, ***Golang***, ***Ruby***, ***Ruby on Rails***, ***Chef***, ***HTML***, ***CSS*** の職務経験ありで、 ***Google App Engine***, ***Heroku***, ***C***, ***C++***, ***C#***, ***Java***, ***Android SDK***, ***Firebase*** は個人趣味や学校のプロジェクトなどで触ったことがあります。  
+* ***Javascript (server / client / react.js / redux.js / ES6 / Babel / node.js / express.js)***, ***PHP***, ***Objective C***, ***Python***, ***Golang***, ***Ruby***, ***Ruby on Rails***, ***GraphQL***, ***Chef***, ***HTML***, ***CSS*** の職務経験ありで、 ***Google App Engine***, ***Heroku***, ***C***, ***C++***, ***C#***, ***Java***, ***Android SDK***, ***Firebase*** は個人趣味や学校のプロジェクトなどで触ったことがあります。  
 
 * ***アジャイルスタイルの開発・プロジェクト管理***をたくさん経験してきています。  
 
@@ -185,7 +224,7 @@ JLPT2（2005年）
 
 * **新しい技術や発明に刺激されます。**
 
-* **スマートフォンは私たちの生活を根本的に変える**と信じております。
+* スマートフォンやインターネットは私たちの生活を根本的に変えてきたが、**これからももっとさらなる変化が続いていく**と信じております。
 
 ## 趣味など  
-職柄関連のこと以外は、音楽、写真、映画、ファッション、ワイン、日本酒、地ビール、グルメなど、幅広く趣味を持っております。そのおかけで異なる業界の友達や知り合いも沢山いらっしゃいます。
+職柄関連のこと以外は、音楽、写真、映画、アニメ・漫画・ドラマ・ファッション、ワイン・日本酒・ウィスキー・カルバドス・カクテル・地ビール・テキーラなどお酒全般やグルメなど、幅広く趣味を持っております。そのおかけで異なる業界の友達や知り合いも沢山いらっしゃいます。
