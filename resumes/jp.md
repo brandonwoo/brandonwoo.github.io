@@ -32,6 +32,12 @@ permalink: /resumes/jp/
 ### A Better World `2015年9月 - 現在`
 開発・翻訳・通訳・国際展開コンサル・コンサル業務全般
 
+* [MAGES.Lab](https://mages-lab.jp) `2018年7月 - 2019年5月`
+
+  * めいこい[iOS](https://apps.apple.com/jp/app/%E3%82%81%E3%81%84%E3%81%93%E3%81%84-%E6%98%8E%E6%B2%BB%E6%9D%B1%E4%BA%B0%E6%81%8B%E4%BC%BD-%E3%83%8F%E3%83%B0%E3%82%AB%E3%83%A9%E3%83%87%E3%83%B1%E3%83%88/id1352250862)と[Android](https://play.google.com/store/apps/details?id=com.mages.meikoidate)版のフロントエンド開発（Webview SPAアプリ）
+    * 途中で参入して、バグだらけのなスパゲティー状態だったフロントエンドのコードを一から、ほぼ書き直しのレベルでリファクタリングをしてコードを片付けた上で、開発し続けて無事にリリース・追加機能開発・運用までやり遂げました。
+    * 使用した技術: Javascript (riot.js, webpack), HTML/CSS
+
 * [LogicLogic](https://www.logiclogic.jp/) `2017年9月 - 2018年2月`
 
   * 複数大規模動画配信サービスのGraphQL APIバックエンドを汎用的に開発 

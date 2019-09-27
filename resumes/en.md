@@ -33,6 +33,13 @@ permalink: /resumes/en/
 ### A Better World `2015 Sep - current`
 Software development, translation and consulting services  
 
+* [MAGES.Lab](https://mages-lab.jp) `2018 Aug - 2019 May`
+
+  * Main frontend developer for [iOS](https://apps.apple.com/jp/app/%E3%82%81%E3%81%84%E3%81%93%E3%81%84-%E6%98%8E%E6%B2%BB%E6%9D%B1%E4%BA%B0%E6%81%8B%E4%BC%BD-%E3%83%8F%E3%83%B0%E3%82%AB%E3%83%A9%E3%83%87%E3%83%B1%E3%83%88/id1352250862) and [Android](https://play.google.com/store/apps/details?id=com.mages.meikoidate) game "meikoi" (Webview SPA)
+    * Joined the project halfway when the frontend code was a huge mess of spaghetti code and full of bugs. Refactored (almost rewrote) the code base, then continued developing the frontend till release. Continued with development of new features and maintaining the codebase after release.
+    * Technologies used: Javascript (riot.js, webpack), HTML/CSS
+
+
 * [LogicLogic](https://www.logiclogic.jp/) `2017 Sep - 2018 Feb`
 
   * Developed reusable/configurable GraphQL API backend of various major video streaming sites.
