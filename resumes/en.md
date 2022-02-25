@@ -14,7 +14,7 @@ permalink: /resumes/en/
 **Date of Birth**: 28th February, 1983  
 **Nationality**: Singaporean  
 **Marital Status**: Single  
-**Website**: <http://www.brandonwoo.com>    
+**Website**: <http://brandonwoo.com>    
 
 ## Profile Summary
 * **Fluent in 3 languages**, English, Chinese and Japanese

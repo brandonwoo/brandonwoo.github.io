@@ -13,7 +13,7 @@ permalink: /resumes/jp/
 **Email**: <brandonwoo@brandonwoo.com>  
 **生年月日**: 1983年2月28日  
 **国籍**: シンガポール  
-**URL**: <http://www.brandonwoo.com>    
+**URL**: <http://brandonwoo.com>    
 
 ## プロフィール概要
 * **英語・中国語・日本語**に精通している**トライリンガル**
