@@ -43,7 +43,7 @@ permalink: /resumes/jp/
 * [Kirii](https://www.kirii.co.jp/) `2019年6月 - 2021年9月`
 
   * 新規注文管理・請求システムのフロントエンド開発。 
-    * Technologies used: ***Javascript (Nuxt.js, Vue.js), HTML/CSS***  
+    * 使用した技術: ***Javascript (Nuxt.js, Vue.js), HTML/CSS***  
 <br/>
   
 * [MAGES.Lab](https://mages-lab.jp) `2018年7月 - 2019年5月`
