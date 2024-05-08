@@ -8,12 +8,11 @@ permalink: /resumes/jp/
 
 ## プロフィール概要
 
-**姓名**: ブランドン　ウ　シュアンル  (Brandon Woo Xuanru)  
+**姓名**: Brandon Woo Xuanru
 **住所**: 〒160-0022 東京都新宿区新宿6  
 **Email**: <brandonwoo@brandonwoo.com>  
 **生年月日**: 1983年2月28日  
 **国籍**: シンガポール  
-**URL**: <http://brandonwoo.com>    
 
 ## プロフィール概要
 * **英語・中国語・日本語**に精通している**トライリンガル**
@@ -32,12 +31,24 @@ permalink: /resumes/jp/
 ### A Better World `2015年9月 - 現在`
 開発・翻訳・通訳・国際展開コンサル・コンサル業務全般
 
+* `2023年2月 - 現在`
+  * 大手ホテルチェインのウェブサイト・予約システムをゼロから書き換えるリニュアルプロジェクトでフロント・tRPC API開発
+     * 使用した技術: ***Typescript (React.js, Next.js), tRPC, rscss***  
+
+* [Brand Control](https://brandcloud.co.jp/) `2021年2月 - 2023年1月`
+  * 企業と社労士が使う補助金申請・経過管理サービス。
+     * 様々な補助金を企業がサイト上で申請でき、申請書類を添付したり、申請スケジュールや進捗を管理・参照できるサービスの降るスタック開発。
+     * 使用した技術: ***Typescript (React.js, Next.js), tRPC, Prisma.js, PostgreSQL, Material UI, Pusher, Vercel***  
+  * 裁判事例を検索・参照するサービス。
+     * 裁判事例のファイルをデータベースに保存し、事例ごとに概要フィールドを設け、概要フィールドのテキストで検索して事例を参照できるサービスを一人で開発。
+     * 使用した技術: ***Python (Django), PostgreSQL***  
+
 * [LINE](https://line.me/) `2019年11月 - 2021年12月`
 
   * 社内システムの書き換え・改修プロジェクトのリードフロントエンドエンジニア。  
-    * 使用した技術: ***TypeScript (Nuxt.js, Vue.js), HTML/CSS***  
+     * 使用した技術: ***TypeScript (Nuxt.js, Vue.js), HTML/CSS***  
   * LINEのステッカー配信管理システムのフロントエンド開発。
-    * 使用した技術: ***Javascript (React.js, Next.js), Tailwind.css, HTML/CSS***  
+     * 使用した技術: ***Javascript (React.js, Next.js), Tailwind.css, HTML/CSS***  
 <br/>
   
 * [Kirii](https://www.kirii.co.jp/) `2019年6月 - 2021年9月`
