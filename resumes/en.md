@@ -27,10 +27,28 @@
 
 Software development, translation and consulting services
 
+- [Meetsmore](https://meetsmore.com/) Feature development and service maintenance `2024 June - 2025 Feb`
+  - Features developed:
+     - File upload improvements  
+         - implemented file uploading through S3 presigned urls 
+     - Time restrcted access feature  
+         - implemented time-limited user access to system based on time and user access level
+     - Improve fetch performance for company divisions
+         - implemented parent-children level based pagination
+     - Various bug fixes and support
+  - Technologies used: **_Typescript, Next.js, HTML/CSS_**
+
+- [Tempstaff](https://www.tempstaff.co.jp/) Website renewal development `2024 Jun - Dec 2024`
+  - Developer for transition from SSR website to SPA website
+  - Features developed:
+     - My Page bank account registration
+  - Technologies used: **_Typescript, React.js, HTML/CSS_**
+
 - [CLUB Panasonic website](https://club.panasonic.jp/) Website renewal development `2024 Feb - 2024 May`
   - Wrote user stories and developed react components for website renewal
-    - My Page membership info component
-    - My Page address list
+  - Features developed:
+     - My Page membership info component
+     - My Page address list
   - Technologies used: **_Typescript, React.js, HTML/CSS_**
 
 - [Hulu.jp](https://www.hulu.jp/) Refactoring and site improvements `2023 Aug - 2024 Jan`
@@ -44,7 +62,7 @@ Software development, translation and consulting services
 - [Toyoko Inn](https://www.toyoko-inn.com/) site renewal `2023 May - 2023 Jul`
   - Frontend Developer
      - Complete reimplementation of entire site and design renewal
-     - Features developed
+     - Features developed:
 			- User login/logout
 			- Old -> new account migration
 			- Hotel search

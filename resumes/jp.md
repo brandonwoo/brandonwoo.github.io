@@ -1,15 +1,9 @@
----
-layout: info
-title: 履歴書
-permalink: /resumes/jp/
----
-
 # 履歴書（Brandon Woo）
 
 ## プロフィール概要
 
-**姓名**: Brandon Woo Xuanru
-**住所**: 〒160-0022 東京都新宿区新宿6  
+**姓名**: Brandon Woo Xuanru  
+**住所**: 〒166-0003 東京都杉並区高円寺南  
 **Email**: <brandonwoo@brandonwoo.com>  
 **生年月日**: 1983年2月28日  
 **国籍**: シンガポール  
@@ -31,40 +25,107 @@ permalink: /resumes/jp/
 ### A Better World `2015年9月 - 現在`
 開発・翻訳・通訳・国際展開コンサル・コンサル業務全般
 
-* `2023年2月 - 現在`
-  * 大手ホテルチェインのウェブサイト・予約システムをゼロから書き換えるリニュアルプロジェクトでフロント・tRPC API開発
-     * 使用した技術: ***Typescript (React.js, Next.js), tRPC, rscss***  
+- [加和太建設](https://www.kawata.org/) `2025/2 - 2025/6`
+  - 業務管理システムの書き換え
+     - Java/Angular(SPA) からLaravel(SSR)への書き換え
+     - 主に画面のクライアント側のインタラクティブ機能を開発
+         - クライアント側バリデーション・エラー表示
+         - フォームのセレクト入力値切り替え
+         - submitボタンの状態管理
+         - モーダル実装
+         - エクセルデータを編集できる画面実装
+     - 使用した技術: **_PHP, Javascript, alpine.js HTML/CSS_**
 
-* [Brand Control](https://brandcloud.co.jp/) `2021年2月 - 2023年1月`
+
+- [大塚商会](https://www.otsuka-shokai.co.jp/) `2025/2 - 2025/6`
+  - 新規アカウント登録フロー
+     - コンポーネント設計・実装
+     - Storybookセットアップ・実装
+     - 画面実装
+     - 使用した技術: **_Typescript, React.js, HTML/CSS_**
+
+- [Meetsmore](https://meetsmore.com/) `2024/6- 2025/2` 
+  - 新規機能開発・メンテナス
+     - 開発した機能:
+        - ファイルアップロード改善
+            - S3 presigned urlsを使って、ブラウザー -> ウェブサーバー -> Amazon S3のアップロードフローをブラウザーからS3へ直接アップロードするフローに変えた
+        - ユーザーグループによってシステムへアクセスできる時間を制限する機能を開発
+        - 会社部署の取得のパフォーマンス改善
+            - 一括取得していて遅かったのを、階層ベースで取得できるようにした（親レベルを先に取得して、クリックで展開した時にだけ子部門を取得して表示する）
+        - 既存システムで起票された問題の修正
+     - 使用した技術: **_Typescript, next.js, HTML/CSS_**
+
+
+- [Tempstaff](https://www.tempstaff.co.jp/) `2024/6 - 2024/12`
+  - ウェブサイトリニューアル開発
+  - SSR -> SPAへ移行する開発
+  - 開発した機能:
+     - マイページ銀行口座登録
+  - 使用した技術: **_Typescript, React.js, HTML/CSS_**
+
+- [CLUB Panasonic website](https://club.panasonic.jp/) `2024/2 - 2024/5`
+  - ウェブサイトリニューアル開発
+     - ユーザーストーリー作成
+     - Reactコンポーネント開発
+     - 開発した機能:
+         - マイページメンバー情報
+         - マイページアドレス一覧
+     - 使用した技術: **_Typescript, React.js, HTML/CSS_**
+
+- [Hulu.jp](https://www.hulu.jp/) `2023/8 - 2024/1`
+  - サイトリファクタリング  
+     - 既存コードの問題を洗い出し、改善を提案・実装する
+        - webpack 3 -> 4へ移行
+        - ビルド時間とbundleサイズを減らした
+        - Lighthouseスコアを25 -> 73へ改善
+        - next.jsへ移行するPOCを作成
+        - 使用した技術: **_Javascript, Typescript, express.js, falcor.js, webpack, next.js HTML/CSS_**
+
+- [Toyoko Inn](https://www.toyoko-inn.com/) `2023/5 - 2023/7`
+  - 大手ホテルチェインのウェブサイト・予約システムをゼロから書き換えるリニュアルプロジェクトでフロント・tRPC API開発
+     - 開発機能：
+			- ユーザーログイン・ログアウト
+			- 旧アカウントから新アカウント移行フロー
+			- ホテル検索
+			- 宿泊予約
+			- 予約管理
+			- ホテルリストダイレクトリー
+			- お気に入りリスト
+			- ユーザー情報管理
+			- お知らせ表示
+    - 使用した技術: **_Typescript, next.js, react.js, tRPC, recoil, vercel, prisma, zod, pusher.js, rscss, HTML/CSS_**
+
+
+* [Brand Control](https://brandcloud.co.jp/) `2021/2 - 2023/1`
   * 企業と社労士が使う補助金申請・経過管理サービス。
      * 様々な補助金を企業がサイト上で申請でき、申請書類を添付したり、申請スケジュールや進捗を管理・参照できるサービスの降るスタック開発。
-     * 使用した技術: ***Typescript (React.js, Next.js), tRPC, Prisma.js, PostgreSQL, Material UI, Pusher, Vercel***  
+     * 使用した技術: ***Typescript (React.js, next.js), tRPC, Prisma.js, PostgreSQL, Material UI, Pusher, Vercel***  
   * 裁判事例を検索・参照するサービス。
      * 裁判事例のファイルをデータベースに保存し、事例ごとに概要フィールドを設け、概要フィールドのテキストで検索して事例を参照できるサービスを一人で開発。
      * 使用した技術: ***Python (Django), PostgreSQL***  
 
-* [LINE](https://line.me/) `2019年11月 - 2021年12月`
+* [LINE](https://line.me/) `2019/11 - 2021/12`
 
   * 社内システムの書き換え・改修プロジェクトのリードフロントエンドエンジニア。  
      * 使用した技術: ***TypeScript (Nuxt.js, Vue.js), HTML/CSS***  
   * LINEのステッカー配信管理システムのフロントエンド開発。
-     * 使用した技術: ***Javascript (React.js, Next.js), Tailwind.css, HTML/CSS***  
+     * 使用した技術: ***Javascript (React.js, next.js), Tailwind.css, HTML/CSS***  
 <br/>
   
-* [Kirii](https://www.kirii.co.jp/) `2019年6月 - 2021年9月`
+* [Kirii](https://www.kirii.co.jp/) `2019/6 - 2021/9`
 
   * 新規注文管理・請求システムのフロントエンド開発。 
     * 使用した技術: ***Javascript (Nuxt.js, Vue.js), HTML/CSS***  
 <br/>
   
-* [MAGES.Lab](https://mages-lab.jp) `2018年7月 - 2019年5月`
+* [MAGES.Lab](https://mages-lab.jp) `2018/7 - 2019/5`
 
   * めいこい[iOS](https://apps.apple.com/jp/app/%E3%82%81%E3%81%84%E3%81%93%E3%81%84-%E6%98%8E%E6%B2%BB%E6%9D%B1%E4%BA%B0%E6%81%8B%E4%BC%BD-%E3%83%8F%E3%83%B0%E3%82%AB%E3%83%A9%E3%83%87%E3%83%B1%E3%83%88/id1352250862)と[Android](https://play.google.com/store/apps/details?id=com.mages.meikoidate)版のフロントエンド開発（Webview SPAアプリ）
     * 途中で参入して、バグだらけのなスパゲティー状態だったフロントエンドのコードを一から、ほぼ書き直しのレベルでリファクタリングをしてコードを片付けた上で、開発し続けて無事にリリース・追加機能開発・運用までやり遂げました。
     * 使用した技術: ***Javascript (riot.js, webpack), HTML/CSS***  
 <br/>
 
-* [LogicLogic](https://www.logiclogic.jp/) `2017年9月 - 2018年2月`
+* [LogicLogic](https://www.logiclogic.jp/) `2017/9 - 2018/2`
 
   * 複数大規模動画配信サービスのGraphQL APIバックエンドを汎用的に開発 
       * コンフィグを汎用モジュールに渡すだけでカスタマイズしたAPIサーバーを立ち上げることが可能
@@ -92,38 +153,38 @@ permalink: /resumes/jp/
       * 使用した技術： ***Javascript (react.js, redux.js, jQuery, webpack, node.js), Twitter Bootstrap, HTML/CSS***  
 <br/>
 
-* [Supership](https://supership.jp/) `2016年8月 - 2017年3月`
+* [Supership](https://supership.jp/) `2016/8 - 2017/3`
   * 広告配信管理システムのフロントエンドウェブアプリ(Single-page Application)を担当  
       * 使用した技術： ***Javascript (react.js, redux.js, jQuery, webpack, node.js), Twitter Bootstrap, HTML/CSS***  
 <br/>
 
-* [Relations](https://www.relationsgroup.co.jp) `2016年3月 - 2016年5月`
+* [Relations](https://www.relationsgroup.co.jp) `2016/3 - 2016/5`
   * スーパーマーケットと各地の市場をつなげる新規ウェブサービスのフロントエンドウェブアプリ(Single-page Application)の設計・リードエンジニア
       * 使用した技術： ***Javascript (react.js, redux.js, jQuery, webpack, node.js), Twitter Bootstrap, HTML/CSS***  
 <br/>
 
-* [olainc](http://olainc.jp/)  `2015年11月 - 2016年2月`
+* [olainc](http://olainc.jp/)  `2015/11 - 2016/2`
   * 日本の会社が中国（深圳）の工場でハローキティの携帯を生産するプロジェクトのプロジェクトコーディネーターと通訳者・翻訳者
 
 <br/>
 
-* [otacco](https://otacco.com) `2015年11月 - 2016年2月`
+* [otacco](https://otacco.com) `2015/11 - 2016/2`
   * 3週間で、otacco.comのフロントエンドウェブアプリ（Single-page Application）を書き直し、かつデザインのリニューアルも担当  
       * 使用した技術： ***Javascript (react.js, jQuery, webpack, node.js), Twitter Bootstrap, Ruby on Rails, HTML/CSS***  
 <br/>
 
-* [Generace](http://generace.co.jp)  `2015年10月`
+* [Generace](http://generace.co.jp)  `2015/10`
   * AndroidのオンラインソーシャルゲームのサーバーバックエンドAPIを開発  
       * 使用した技術： ***PHP (CakePHP)***
 
 <br/>
 
-* [Geekatoo](https://www.geekatoo.com)  `2015年9月 - 2016年1月`
+* [Geekatoo](https://www.geekatoo.com)  `2015/9 - 2016/1`
   * 株式会社Q&A向けにカスタマイズしたGeekatoo.comのウェブサイト・iOSアプリ・Androidアプリの開発
   * GeekatooとQ&A間のブリッジ役やコーディネーター
       * 使用した技術： ***Ruby on Rails, HTML/CSS***
 
-### [GREE](http://corp.gree.net) `2012年12月 - 2015年8月`
+### [GREE](http://corp.gree.net) `2012/12 - 2015/8`
 * 技術翻訳・通訳 `2012年12月 - 2013年7月`
   * パートナー向けドキュメンテーション、公式サイト、ミーティング、プレゼン資料、エンジニアブログなどの翻訳と通訳
 * エンジニア採用面接官 `2012年12月 Dec - 2013年7月`
@@ -133,11 +194,11 @@ permalink: /resumes/jp/
   * 各種自動化スクリプト作成
      * 使用した技術： ***Chef, Ruby, Python (Flask), Javascript (react.js, gulp, node.js), Twitter Bootstrap, Golang, HTML/CSS***
 
-### [CyberAgent](https://www.cyberagent.co.jp)	`2012年5月 - 2012年11月`
+### [CyberAgent](https://www.cyberagent.co.jp)	`2012/5 - 2012/11`
 * 会社のソーシャルゲームが使用するフレームワークのプロジェクトマネージャー・アーキテクト・エンジニア  `2012年5月 - 2012年11月`
   * 使用した技術： ***Javascript (node.js, express.js, backbone.js, impact.js), Redis, MySQL, HTML/CSS***
 
-### [Zynga Japan](https://www.zynga.com) `2010年7月 - 2012年2月`
+### [Zynga Japan](https://www.zynga.com) `2010/7 - 2012/2`
 * iOSゲームMontopiaの開発 `2012年2月`
   * 使用した技術： ***PHP, HTML/CSS, Javascript, Zynga common libraries***
 * 未リリースプロジェクトの開発 `2011年9月 - 2012年1月`
@@ -150,25 +211,25 @@ permalink: /resumes/jp/
 * 未リリースプロジェクトの企画・管理・開発 `2010年10月 - 2010年9月`
   * 使用した技術： ***PHP (Symfony 1), HTML/CSS, Unoh common libraries, Zynga common libraries***
 
-### Unoh `2010年1月 - 2010年7月`
+### Unoh `2010/1 - 2010/7`
 * DeNAとの共同開発でMobageゲーム「農園ホッコリーナ」の開発 `2010年1月 - 2010年5月`
   * 使用した技術： ***PHP, HTML/CSS, Unoh common libraries***
 * 未リリースプロジェクトの開発 `2010年6月 - 2010年7月`
   * 使用した技術： ***PHP (Symfony 1), HTML/CSS, Unoh common libraries***
 
-### Information System Engineering	`2009年3月 - 2009年12月`
+### Information System Engineering	`2009/3 - 2009/12`
 * ドキュメントの翻訳（英・中・日）
 * Adobe InDesignを使ったドキュメントの制作。
 * 納品翻訳物の翻訳チェックや言語チェック
 
-### 専門分野の翻訳プロジェクト（フリーランス）	`2009年2月 - 2009年3月`
+### 専門分野の翻訳プロジェクト（フリーランス）	`2009/2 - 2009/3`
 * マーケットリサーチ社の依頼で専門分野の新聞記事の翻訳
 
-### Think `2009年2月`
+### Think `2009/2`
 * 日本人プロデューサー陣と外国人開発者陣とのコミュニケーションや管理の手伝い（英・日の通訳）
 * 技術文書（自動セキュリティドアのAPIドキュメント）の英・日翻訳
 
-### Ayu Project `2009年1月`
+### Ayu Project `2009/1`
 * ヘアサロンが使うメールマガジンシステムの開発
   * 使用した技術： ***PHP, HTML/CSS***
 
@@ -187,7 +248,7 @@ permalink: /resumes/jp/
 ### ツアーガイド（JTB、National Tour Agency、World Holidaysなど）（フリーランス） `2004 - 2007`
 * Worked as a tour guide for showing Japanese around Singapore
 
-### 焼肉屋でアルバイト `2007 Jan - 2007 Jul`
+### 焼肉屋でアルバイト `2007/1 - 2007/7`
 * 「元祖ニュー担々麺 」でアルバイト
 
 ## 学歴
