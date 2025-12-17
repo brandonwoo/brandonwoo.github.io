@@ -2,7 +2,7 @@
 
 ## プロフィール概要
 
-**姓名**: Brandon Woo Xuanru  
+**姓名**: Brandon Woo (ブランドン　ウ)  
 **住所**: 〒166-0003 東京都杉並区高円寺南  
 **Email**: <brandonwoo@brandonwoo.com>  
 **生年月日**: 1983年2月28日  
